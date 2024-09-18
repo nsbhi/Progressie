@@ -1,0 +1,36 @@
+.navbar 
+{ display: flex;
+     justify-content: space-around;
+      background-color: brown;
+       text-align: center; }
+
+ .content { 
+    background: beige;
+    display: flex; 
+    flex-wrap: wrap;
+   justify-content: center;
+ } 
+ .news:first-child
+  { display: flex;
+     justify-content: center;
+      text-align: center; 
+      flex-direction: column;
+ } 
+#breaking {
+font-size: 40px;
+order: 1;
+width: 100%;
+align-self: center;
+}
+.news:nth-child(1) {
+ order: 2;  
+}
+.news:nth-child(2) {
+order: 2; 
+}
+.news:nth-child(3) {
+order: 3; 
+}
+#breaking p {
+   font-size: 25px;
+}

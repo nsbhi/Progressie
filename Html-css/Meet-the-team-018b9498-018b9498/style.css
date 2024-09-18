@@ -1,0 +1,52 @@
+ .collegas {
+display: flex;
+justify-content: space-around; 
+align-items: center;
+ }
+
+ .collega {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 33.33%;
+    margin: 0 20px;
+    border-radius: 25px;
+    background-color: antiquewhite;
+    width: 350px;
+ }
+/* .collega:nth-child(1) { 
+background-color: palegoldenrod;
+border-radius: 15px;
+width: 20%;
+
+}
+.collega:nth-child(2) {
+ background-color: palegoldenrod;
+ border-radius: 15px;
+ width: 20%;   
+}
+.collega:nth-child(3) {
+background-color: palegoldenrod;
+border-radius: 15px;
+width: 20%;
+}  */
+.avatar  img {
+aspect-ratio: 1 / 1;
+object-fit: cover;
+width: 100%;
+border-radius: 25px;
+width: 300px;
+height: 300px;
+}
+
+.collega>img {
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+.collega:nth-child(1)>img {
+    object-position: 0%;
+}
+.collega:nth-child(3)>img {
+    object-position: 100%;
+}

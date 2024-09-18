@@ -1,0 +1,21 @@
+
+.tooltip-content {
+  position: sticky;
+  display: none;
+}
+.tooltip:hover .tooltip-content  {
+position: sticky;
+display: block;
+background-color: black;
+color: white;
+width: 400px;
+}
+.tooltip {
+  position: sticky;
+  top: 0;
+}
+.icon {
+  display: flex;
+  position: sticky;
+justify-content: end;
+}
